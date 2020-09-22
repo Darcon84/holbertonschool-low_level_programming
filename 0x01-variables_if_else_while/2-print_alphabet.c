@@ -6,8 +6,9 @@ int abc=97;
 
 while ( abc < 122)
 {
-putchar(abc\n);
+putchar(abc);
 abc = abc + 1;
 }
+putchar(\n);
 return (0);
 }
