@@ -7,7 +7,7 @@
 
 int main(void)
 {
-int abc=97;
+char abc=97;
 while ( abc <= 122)
 {
 putchar(abc);
