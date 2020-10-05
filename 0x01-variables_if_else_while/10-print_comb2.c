@@ -7,13 +7,20 @@
 
 int main(void)
 {
-for (int n = 0; n <= 99; n++)
+int n;
+int m;
+for (n = 0; n <= 9; n++)
 {
-putchar((n / 10) + '0');
-putchar((n % 10) + '0');
-if (n < 99)
+for (m = 0; m <= 9; m++)
+{
+putchar(n + '0');
+putchar(m  + '0');
+if (n < 9 || m < 9)
+{
 putchar(',');
 putchar(' ');
+}
+}
 }
 putchar('\n');
 return (0);
